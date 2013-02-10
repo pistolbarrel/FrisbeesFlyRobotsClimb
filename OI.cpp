@@ -12,7 +12,6 @@
 #include "SmartDashboard/SmartDashboard.h"
 #include "Commands/AutonomousCommand.h"
 #include "Commands/ClimbALevel.h"
-#include "Commands/KickerSpeed.h"
 #include "Commands/ThrowerOff.h"
 #include "Commands/ThrowerOn.h"
 #include "Commands/TimedDriveStraight.h"
