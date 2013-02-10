@@ -9,7 +9,8 @@
 // it from being updated in th future.
 // this is a meanless change to give git something
 // to do.  I'm going to modify this same file on
-// another clone of this repro it see how gie handles it.
+// another clone of this repro it see how git handles it.
+// So even a misspelling to fix, what will it make of that?
 #include "AutonomousCommand.h"
 AutonomousCommand::AutonomousCommand() {
 	// Use requires() here to declare subsystem dependencies
