@@ -11,13 +11,25 @@ void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__I__ZN11ClimbALevelC2Ev();
 
+void _GLOBAL__I__ZN13JoystickDriveC2Ev();
+
 void _GLOBAL__I__ZN11KickerSpeedC2Ed();
 
 void _GLOBAL__I__ZN10ThrowerOffC2Ev();
 
 void _GLOBAL__I__ZN9ThrowerOnC2Ev();
 
+void _GLOBAL__I__ZN11TilterSpeedC2Ed();
+
+void _GLOBAL__I__ZN15TimedDiscKickerC2Edd();
+
 void _GLOBAL__I__ZN18TimedDriveStraightC2Edd();
+
+void _GLOBAL__I__ZN16TimedTilterSpeedC2Edd();
+
+void _GLOBAL__I__ZN16ToggleRobotClimbC2Ev();
+
+void _GLOBAL__I__ZN15ToggleRobotTiltC2Ev();
 
 void _GLOBAL__I__ZN2OIC2Ev();
 
@@ -90,10 +102,16 @@ void (*_ctors[])() =
     {
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN11ClimbALevelC2Ev,
+    _GLOBAL__I__ZN13JoystickDriveC2Ev,
     _GLOBAL__I__ZN11KickerSpeedC2Ed,
     _GLOBAL__I__ZN10ThrowerOffC2Ev,
     _GLOBAL__I__ZN9ThrowerOnC2Ev,
+    _GLOBAL__I__ZN11TilterSpeedC2Ed,
+    _GLOBAL__I__ZN15TimedDiscKickerC2Edd,
     _GLOBAL__I__ZN18TimedDriveStraightC2Edd,
+    _GLOBAL__I__ZN16TimedTilterSpeedC2Edd,
+    _GLOBAL__I__ZN16ToggleRobotClimbC2Ev,
+    _GLOBAL__I__ZN15ToggleRobotTiltC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot7chassisE,
     _GLOBAL__I__ZN8RobotMap16chassisLeftMotorE,
@@ -134,13 +152,25 @@ void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__D__ZN11ClimbALevelC2Ev();
 
+void _GLOBAL__D__ZN13JoystickDriveC2Ev();
+
 void _GLOBAL__D__ZN11KickerSpeedC2Ed();
 
 void _GLOBAL__D__ZN10ThrowerOffC2Ev();
 
 void _GLOBAL__D__ZN9ThrowerOnC2Ev();
 
+void _GLOBAL__D__ZN11TilterSpeedC2Ed();
+
+void _GLOBAL__D__ZN15TimedDiscKickerC2Edd();
+
 void _GLOBAL__D__ZN18TimedDriveStraightC2Edd();
+
+void _GLOBAL__D__ZN16TimedTilterSpeedC2Edd();
+
+void _GLOBAL__D__ZN16ToggleRobotClimbC2Ev();
+
+void _GLOBAL__D__ZN15ToggleRobotTiltC2Ev();
 
 void _GLOBAL__D__ZN2OIC2Ev();
 
@@ -205,10 +235,16 @@ void (*_dtors[])() =
     {
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN11ClimbALevelC2Ev,
+    _GLOBAL__D__ZN13JoystickDriveC2Ev,
     _GLOBAL__D__ZN11KickerSpeedC2Ed,
     _GLOBAL__D__ZN10ThrowerOffC2Ev,
     _GLOBAL__D__ZN9ThrowerOnC2Ev,
+    _GLOBAL__D__ZN11TilterSpeedC2Ed,
+    _GLOBAL__D__ZN15TimedDiscKickerC2Edd,
     _GLOBAL__D__ZN18TimedDriveStraightC2Edd,
+    _GLOBAL__D__ZN16TimedTilterSpeedC2Edd,
+    _GLOBAL__D__ZN16ToggleRobotClimbC2Ev,
+    _GLOBAL__D__ZN15ToggleRobotTiltC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot7chassisE,
     _GLOBAL__D__ZN8RobotMap16chassisLeftMotorE,

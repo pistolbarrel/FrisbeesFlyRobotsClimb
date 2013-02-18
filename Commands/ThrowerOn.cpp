@@ -19,12 +19,12 @@ ThrowerOn::ThrowerOn()
 // Called just before this Command runs the first time
 void ThrowerOn::Initialize()
 {
-	Robot::discThrower->Initialize(1.0);
+	Robot::discThrower->InitializeMotorSpeed(-0.4);
 }
 // Called repeatedly when this Command is scheduled to run
 void ThrowerOn::Execute()
 {
-	Robot::discThrower->SetSpeed();
+	Robot::discThrower->ExecuteMotorSpeed();
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ThrowerOn::IsFinished()
@@ -34,7 +34,7 @@ bool ThrowerOn::IsFinished()
 // Called once after isFinished returns true
 void ThrowerOn::End()
 {
-	Robot::discThrower->Stop();
+	Robot::discThrower->EndMotorSpeed();
 }
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run

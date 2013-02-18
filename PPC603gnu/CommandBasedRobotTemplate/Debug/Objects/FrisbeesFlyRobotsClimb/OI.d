@@ -398,10 +398,16 @@ CommandBasedRobotTemplate/Debug/Objects/FrisbeesFlyRobotsClimb/OI.o:  \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Visioning.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../OI.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.h
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/OI.h:
 
@@ -1199,10 +1205,22 @@ C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../OI.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h:
 
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h:
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.h:
 
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.h:
+
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h:

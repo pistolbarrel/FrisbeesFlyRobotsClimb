@@ -122,6 +122,10 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/Cl
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -134,7 +138,27 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/Th
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -180,10 +204,16 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/
 
 OBJECTS_CommandBasedRobotTemplate = CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/OI.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Robot.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/RobotMap.o \
@@ -245,6 +275,10 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsCli
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -257,7 +291,27 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsCli
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.cpp
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.o : C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -303,10 +357,16 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsCli
 
 OBJECTS_CommandBassedRobotTemplate_partialImage = CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/OI.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Robot.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/RobotMap.o \
@@ -328,14 +388,18 @@ _clean :: CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/CommandBassedRobot
 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/CommandBassedRobotTemplate_partialImage_clean : 
 	$(TRACE_FLAG)if [ -d "CommandBassedRobotTemplate_partialImage" ]; then cd "CommandBassedRobotTemplate_partialImage"; rm -rf $(MODE_DIR); fi
 
-DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.d \
+DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.d \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/OI.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Robot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/RobotMap.d \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Chassis.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Climber.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/DiscKicker.d \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/DiscThrower.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Pneumatics.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/TiltTable.d \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Visioning.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/OI.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Robot.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/OI.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Robot.d \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/RobotMap.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Chassis.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Climber.d \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/DiscKicker.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/DiscThrower.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Pneumatics.d \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/TiltTable.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/FrisbeesFlyRobotsClimb/Subsystems/Visioning.d

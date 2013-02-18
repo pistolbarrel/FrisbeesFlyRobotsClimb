@@ -21,12 +21,12 @@ KickerSpeed::KickerSpeed(double speed)
 }
 void KickerSpeed::Initialize()
 {
-	Robot::discKicker->Initialize(m_speed);
+	Robot::discKicker->InitializeMotorSpeed(m_speed);
 }
 // Called repeatedly when this Command is scheduled to run
 void KickerSpeed::Execute()
 {
-	Robot::discKicker->SetSpeed();
+	Robot::discKicker->ExecuteMotorSpeed();
 }
 // Make this return true when this Command no longer needs to run execute()
 bool KickerSpeed::IsFinished()
@@ -36,8 +36,7 @@ bool KickerSpeed::IsFinished()
 // Called once after isFinished returns true
 void KickerSpeed::End()
 {
-	Robot::discKicker->Initialize(0.0);
-	Robot::discKicker->SetSpeed();
+	Robot::discKicker->EndMotorSpeed();
 }
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run
