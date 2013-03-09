@@ -14,6 +14,8 @@ SpeedController* RobotMap::chassisLeftMotor = NULL;
 SpeedController* RobotMap::chassisRightMotor = NULL;
 RobotDrive* RobotMap::chassisRobotDrive21 = NULL;
 Gyro* RobotMap::chassisAlignmentGyro = NULL;
+AnalogChannel* RobotMap::chassisMagRotaryEncoder = NULL;
+DigitalInput* RobotMap::chassisIrSensor = NULL;
 SpeedController* RobotMap::discThrowerMotor = NULL;
 SpeedController* RobotMap::climberMotor = NULL;
 DoubleSolenoid* RobotMap::climberAirAssist = NULL;
@@ -48,13 +50,19 @@ void RobotMap::init() {
 	chassisAlignmentGyro = new Gyro(1, 1);
 	lw->AddSensor("Chassis", "AlignmentGyro", chassisAlignmentGyro);
 	chassisAlignmentGyro->SetSensitivity(0.007);
+	chassisMagRotaryEncoder = new AnalogChannel(1, 3);
+	lw->AddSensor("Chassis", "MagRotaryEncoder", chassisMagRotaryEncoder);
+	
+	chassisIrSensor = new DigitalInput(1, 6);
+	lw->AddSensor("Chassis", "IrSensor", chassisIrSensor);
+	
 	discThrowerMotor = new Talon(1, 3);
 	lw->AddActuator("DiscThrower", "Motor", (Talon*) discThrowerMotor);
 	
 	climberMotor = new Talon(1, 5);
 	lw->AddActuator("Climber", "Motor", (Talon*) climberMotor);
 	
-	climberAirAssist = new DoubleSolenoid(1, 1, 2);      
+	climberAirAssist = new DoubleSolenoid(1, 5, 6);      
 	
 	
 	climberForwardLimit = new DigitalInput(1, 1);
@@ -75,10 +83,11 @@ void RobotMap::init() {
 	pneumaticsRobotTilt = new DoubleSolenoid(1, 3, 4);      
 	
 	
-	pneumaticsRobotClimb = new DoubleSolenoid(1, 5, 6);      
+	pneumaticsRobotClimb = new DoubleSolenoid(1, 1, 2);      
 	
 	
 	pneumaticsCompressor = new Compressor(1, 5, 1, 1);
+	pneumaticsCompressor->Start();
 	
 	
 	discKickermotor = new Talon(1, 4);

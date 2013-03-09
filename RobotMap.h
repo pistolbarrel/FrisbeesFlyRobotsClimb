@@ -23,6 +23,8 @@ public:
 	static SpeedController* chassisRightMotor;
 	static RobotDrive* chassisRobotDrive21;
 	static Gyro* chassisAlignmentGyro;
+	static AnalogChannel* chassisMagRotaryEncoder;
+	static DigitalInput* chassisIrSensor;
 	static SpeedController* discThrowerMotor;
 	static SpeedController* climberMotor;
 	static DoubleSolenoid* climberAirAssist;

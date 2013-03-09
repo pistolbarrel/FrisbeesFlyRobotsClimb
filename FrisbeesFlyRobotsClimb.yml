@@ -100,6 +100,39 @@ Children:
           name: Input Channel (Analog)
           validators: [AnalogInput]
           value: '1'
+    - Name: MagRotaryEncoder
+      Base: Analog Input
+      Children: []
+      Properties:
+        Input Module (Analog): !!robotbuilder.data.properties.ChoicesProperty
+          choices: ['1', '2']
+          default: '1'
+          name: Input Module (Analog)
+          validators: [AnalogInput]
+          value: '1'
+        Input Channel (Analog): !!robotbuilder.data.properties.ChoicesProperty
+          choices: ['1', '2', '3', '4', '5', '6', '7', '8']
+          default: '1'
+          name: Input Channel (Analog)
+          validators: [AnalogInput]
+          value: '3'
+    - Name: IrSensor
+      Base: Digital Input
+      Children: []
+      Properties:
+        Input Channel (Digital): !!robotbuilder.data.properties.ChoicesProperty
+          choices: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+            '13', '14']
+          default: '1'
+          name: Input Channel (Digital)
+          validators: [DigitalChannel]
+          value: '6'
+        Input Module (Digital): !!robotbuilder.data.properties.ChoicesProperty
+          choices: ['1', '2']
+          default: '1'
+          name: Input Module (Digital)
+          validators: [DigitalChannel]
+          value: '1'
     Properties:
       Default Command: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
         name: Default Command, type: Command, validators: null, value: None}
@@ -171,7 +204,7 @@ Children:
           default: '1'
           name: Forward Channel (Solenoid)
           validators: &id011 [Solenoid]
-          value: '1'
+          value: '5'
         Forward Module (Solenoid): !!robotbuilder.data.properties.ChoicesProperty
           choices: &id012 ['1', '2']
           default: '1'
@@ -189,7 +222,7 @@ Children:
           default: '1'
           name: Reverse Channel (Solenoid)
           validators: &id017 [Solenoid]
-          value: '2'
+          value: '6'
     - Name: ForwardLimit
       Base: Limit Switch
       Children: []
@@ -326,7 +359,7 @@ Children:
           default: '1'
           name: Forward Channel (Solenoid)
           validators: *id011
-          value: '5'
+          value: '1'
         Forward Module (Solenoid): !!robotbuilder.data.properties.ChoicesProperty
           choices: *id012
           default: '1'
@@ -344,7 +377,7 @@ Children:
           default: '1'
           name: Reverse Channel (Solenoid)
           validators: *id017
-          value: '6'
+          value: '2'
     - Name: Compressor
       Base: Compressor
       Children: []
