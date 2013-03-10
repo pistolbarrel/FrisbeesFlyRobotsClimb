@@ -19,7 +19,7 @@ ThrowerOn::ThrowerOn()
 // Called just before this Command runs the first time
 void ThrowerOn::Initialize()
 {
-	Robot::discThrower->InitializeMotorSpeed(-0.4);
+	Robot::discThrower->InitializeMotorSpeed(-1.0);
 }
 // Called repeatedly when this Command is scheduled to run
 void ThrowerOn::Execute()

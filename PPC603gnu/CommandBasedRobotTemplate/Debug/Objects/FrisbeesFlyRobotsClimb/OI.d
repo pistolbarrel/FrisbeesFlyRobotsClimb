@@ -379,14 +379,15 @@ CommandBasedRobotTemplate/Debug/Objects/FrisbeesFlyRobotsClimb/OI.o:  \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/Autonomous.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Robot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Commands/AutonomousCommand.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Chassis.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -397,17 +398,19 @@ CommandBasedRobotTemplate/Debug/Objects/FrisbeesFlyRobotsClimb/OI.o:  \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/TiltTable.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Visioning.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../OI.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/PlungeKick.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TiltTableAutoSwitchSpeed.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDiscKicker.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTurn.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleThrowerPlunger.h
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/OI.h:
 
@@ -1167,7 +1170,11 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h:
 
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/AutonomousCommand.h:
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/Autonomous.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1180,8 +1187,6 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
-
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Commands/AutonomousCommand.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Chassis.h:
 
@@ -1203,13 +1208,17 @@ C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Visioning.h
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../OI.h:
 
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ClimbALevel.h:
-
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/JoystickDrive.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/PlungeKick.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOff.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ThrowerOn.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TiltTableAutoSwitchSpeed.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TilterSpeed.h:
 
@@ -1219,8 +1228,8 @@ C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedDriveStraight.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTilterSpeed.h:
 
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTurn.h:
+
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h:
 
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotTilt.h:
-
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h:
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleThrowerPlunger.h:

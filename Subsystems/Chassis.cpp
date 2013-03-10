@@ -39,3 +39,11 @@ void Chassis::JoystickDrive(Joystick *stick)
 	SmartDashboard::PutNumber("RotaryEncoderV", magRotaryEncoder->GetVoltage());
 	SmartDashboard::PutBoolean("IrSensor", irSensor->Get());
 }
+void Chassis::TurnLeft()
+{
+	robotDrive21->ArcadeDrive(0.0, -0.3);
+}
+void Chassis::TurnRight()
+{
+	robotDrive21->ArcadeDrive(0.0, 0.3);
+}

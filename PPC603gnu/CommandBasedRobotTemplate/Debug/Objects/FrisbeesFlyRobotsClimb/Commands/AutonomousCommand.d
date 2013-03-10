@@ -382,7 +382,6 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Commands/AutonomousCommand.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Chassis.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -1155,8 +1154,6 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
-
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Commands/AutonomousCommand.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/../Subsystems/Chassis.h:
 

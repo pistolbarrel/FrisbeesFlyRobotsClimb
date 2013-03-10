@@ -34,5 +34,7 @@ public:
 	void InitDefaultCommand();
 	void TankDrive(double left, double right);
 	void JoystickDrive(Joystick* stick);
+	void TurnLeft();
+	void TurnRight();
 };
 #endif
