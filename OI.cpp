@@ -12,8 +12,7 @@
 #include "SmartDashboard/SmartDashboard.h"
 #include "Commands/Autonomous.h"
 #include "Commands/ClimbALevel.h"
-#include "Commands/JoystickDrive.h"
-#include "Commands/KickerSpeed.h"
+#include "Commands/DriveWithJoystick.h"
 #include "Commands/PlungeKick.h"
 #include "Commands/ThrowerOff.h"
 #include "Commands/ThrowerOn.h"
@@ -41,17 +40,35 @@ OI::OI() {
 	m_dualActionB2 = new JoystickButton(joystick2, 2);
 	m_dualActionB3 = new JoystickButton(joystick2, 3);
 	m_dualActionB4 = new JoystickButton(joystick2, 4);
-//	m_dualActionB5 = new JoystickButton(joystick2, 5);
+	m_dualActionB5 = new JoystickButton(joystick2, 5);
 	m_dualActionB6 = new JoystickButton(joystick2, 6);
-//	m_dualActionB7 = new JoystickButton(joystick2, 7);
+	m_dualActionB7 = new JoystickButton(joystick2, 7);
 	
 	// THIS IS THE COMPETITION CODE
+	// TimedTurn takes the timeout value and whether it is a right turn
+	// as arguments.  If the nudge needs adjustment, there are two things to
+	// consider -- the timeout (didn't run long enough) or the velocity
+	// of the turn (didn't turn fast enough).  The timeout can be changed here,
+	// the velocity is hardcoded in the Chassis subsystem.
 	m_dualActionB1->WhenPressed(new TimedTurn(0.2, false)); // left
-	m_dualActionB2->WhenPressed(new TimedTilterSpeed(0.2, 0.1)); // down
 	m_dualActionB3->WhenPressed(new TimedTurn(0.2, true)); // right
+	
+	// TimedTilterSpeed takes the motorSpeed and timeout as arguments. Both
+	// can be adjusted here.
+	m_dualActionB2->WhenPressed(new TimedTilterSpeed(0.2, 0.1)); // down
 	m_dualActionB4->WhenPressed(new TimedTilterSpeed(-0.2, 0.1)); // up
 	
-	m_dualActionB6->WhileHeld(new PlungeKick());
+	// Nothing to change here.  The velocity of the Thrower is set in the
+	// ThrowerOn command (100%).
+	m_dualActionB5->WhenPressed(new ThrowerOn());
+	m_dualActionB7->WhenPressed(new ThrowerOff());
+	
+	// PlungeKick takes the kickerSpeed as an argument.  There is
+	// nothing else to adjust in the command.
+	m_dualActionB6->WhileHeld(new PlungeKick(0.2));
+	// This works in conjunction with the WhileHeld.  After we
+	// have executed the command in while held, we want to return
+	// the plunger to the original (extended) position.
 	m_dualActionB6->WhenReleased(new ToggleThrowerPlunger());
 	
 	
@@ -84,7 +101,6 @@ OI::OI() {
 //	SmartDashboard::PutData("Tilter50Up", new TilterSpeed(-0.50));
 //	SmartDashboard::PutData("Tilter60Down", new TilterSpeed(0.60));
 //	SmartDashboard::PutData("Tilter60Up", new TilterSpeed(-0.60));
-//	SmartDashboard::PutData("JoystickDrive", new JoystickDrive());
 //	SmartDashboard::PutData("TimedDiscKicker50", new TimedDiscKicker(0.5, 1.32));
 //	SmartDashboard::PutData("TimedDiscKicker60", new TimedDiscKicker(0.6, 1.163));
 //	SmartDashboard::PutData("TimedDiscKicker70", new TimedDiscKicker(0.7, 0.962));

@@ -7,13 +7,15 @@
 /*       -fdollars-in-identifiers flag.                   */
 
 
+void _GLOBAL__I__ZN10AutonomousC2Ev();
+
 void _GLOBAL__I__ZN11ClimbALevelC2Ev();
 
-void _GLOBAL__I__ZN13JoystickDriveC2Ev();
+void _GLOBAL__I__ZN17DriveWithJoystickC2Ev();
 
 void _GLOBAL__I__ZN11KickerSpeedC2Ed();
 
-void _GLOBAL__I__ZN10PlungeKickC2Ev();
+void _GLOBAL__I__ZN10PlungeKickC2Ed();
 
 void _GLOBAL__I__ZN10ThrowerOffC2Ev();
 
@@ -104,10 +106,11 @@ void _GLOBAL__I__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_ctors[])();
 void (*_ctors[])() =
     {
+    _GLOBAL__I__ZN10AutonomousC2Ev,
     _GLOBAL__I__ZN11ClimbALevelC2Ev,
-    _GLOBAL__I__ZN13JoystickDriveC2Ev,
+    _GLOBAL__I__ZN17DriveWithJoystickC2Ev,
     _GLOBAL__I__ZN11KickerSpeedC2Ed,
-    _GLOBAL__I__ZN10PlungeKickC2Ev,
+    _GLOBAL__I__ZN10PlungeKickC2Ed,
     _GLOBAL__I__ZN10ThrowerOffC2Ev,
     _GLOBAL__I__ZN9ThrowerOnC2Ev,
     _GLOBAL__I__ZN24TiltTableAutoSwitchSpeedC2Ed,
@@ -154,13 +157,15 @@ void (*_ctors[])() =
     0
     };
 
+void _GLOBAL__D__ZN10AutonomousC2Ev();
+
 void _GLOBAL__D__ZN11ClimbALevelC2Ev();
 
-void _GLOBAL__D__ZN13JoystickDriveC2Ev();
+void _GLOBAL__D__ZN17DriveWithJoystickC2Ev();
 
 void _GLOBAL__D__ZN11KickerSpeedC2Ed();
 
-void _GLOBAL__D__ZN10PlungeKickC2Ev();
+void _GLOBAL__D__ZN10PlungeKickC2Ed();
 
 void _GLOBAL__D__ZN10ThrowerOffC2Ev();
 
@@ -243,10 +248,11 @@ void _GLOBAL__D__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_dtors[])();
 void (*_dtors[])() =
     {
+    _GLOBAL__D__ZN10AutonomousC2Ev,
     _GLOBAL__D__ZN11ClimbALevelC2Ev,
-    _GLOBAL__D__ZN13JoystickDriveC2Ev,
+    _GLOBAL__D__ZN17DriveWithJoystickC2Ev,
     _GLOBAL__D__ZN11KickerSpeedC2Ed,
-    _GLOBAL__D__ZN10PlungeKickC2Ev,
+    _GLOBAL__D__ZN10PlungeKickC2Ed,
     _GLOBAL__D__ZN10ThrowerOffC2Ev,
     _GLOBAL__D__ZN9ThrowerOnC2Ev,
     _GLOBAL__D__ZN24TiltTableAutoSwitchSpeedC2Ed,

@@ -380,13 +380,15 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Robotmap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/TimedDriveStraight.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/DriveWithJoystick.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Robot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Commands/Autonomous.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Subsystems/Chassis.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Subsystems/Climber.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
@@ -1156,7 +1158,7 @@ C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Robotmap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
-C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/TimedDriveStraight.h:
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/DriveWithJoystick.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1169,6 +1171,10 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Commands/Autonomous.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Subsystems/../Commands/../Subsystems/Chassis.h:
 

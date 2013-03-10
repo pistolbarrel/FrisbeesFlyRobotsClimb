@@ -41,5 +41,5 @@ void TiltTable::EndMotorSpeed()
 }
 bool TiltTable::IsAutonomousSwitch()
 {
-	return (autonomousSwitch->Get() != 0 ? true : false);
+	return !autonomousSwitch->Get();
 }
