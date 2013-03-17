@@ -40,9 +40,9 @@ void Chassis::JoystickDrive(Joystick *stick)
 }
 void Chassis::TurnLeft()
 {
-	robotDrive21->ArcadeDrive(0.0, -0.3);
+	robotDrive21->ArcadeDrive(0.0, -0.7);
 }
 void Chassis::TurnRight()
 {
-	robotDrive21->ArcadeDrive(0.0, 0.3);
+	robotDrive21->ArcadeDrive(0.0, 0.8);
 }

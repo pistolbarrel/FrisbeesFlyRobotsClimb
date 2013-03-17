@@ -44,6 +44,8 @@ void Robot::RobotInit()
 }
 void Robot::AutonomousInit()
 {
+	Robot::pneumatics->DeployPlunger(true);
+//	RobotMap::pneumaticsCompressor->Start();
 	if (autonomousCommand != NULL)
 	{
 		autonomousCommand->Start();
@@ -55,6 +57,10 @@ void Robot::AutonomousPeriodic()
 }
 void Robot::TeleopInit()
 {
+	Robot::pneumatics->DeployPlunger(true);
+	Robot::discThrower->InitializeMotorSpeed(-1.0);
+	Robot::discThrower->ExecuteMotorSpeed();
+//	RobotMap::pneumaticsCompressor->Start();
 	// This makes sure that the autonomous stops running when
 	// teleop starts running. If you want the autonomous to 
 	// continue until interrupted by another command, remove

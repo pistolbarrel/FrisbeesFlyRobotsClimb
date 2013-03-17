@@ -28,6 +28,7 @@ public:
 	void InitDefaultCommand();
 	void ToggleThrowerPlunger();
 	void ToggleRobotClimb();
+	void DeployPlunger(bool trueFalse);
 	
 private:
 };

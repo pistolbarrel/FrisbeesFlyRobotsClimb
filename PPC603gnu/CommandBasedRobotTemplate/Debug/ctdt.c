@@ -11,7 +11,11 @@ void _GLOBAL__I__ZN10AutonomousC2Ev();
 
 void _GLOBAL__I__ZN11ClimbALevelC2Ev();
 
+void _GLOBAL__I__ZN13DeployPlungerC2Eb();
+
 void _GLOBAL__I__ZN17DriveWithJoystickC2Ev();
+
+void _GLOBAL__I__ZN6HangOnC2Ed();
 
 void _GLOBAL__I__ZN11KickerSpeedC2Ed();
 
@@ -22,6 +26,8 @@ void _GLOBAL__I__ZN10ThrowerOffC2Ev();
 void _GLOBAL__I__ZN9ThrowerOnC2Ev();
 
 void _GLOBAL__I__ZN24TiltTableAutoSwitchSpeedC2Ed();
+
+void _GLOBAL__I__ZN22TiltToAutonomousTargetC2Ev();
 
 void _GLOBAL__I__ZN11TilterSpeedC2Ed();
 
@@ -36,6 +42,8 @@ void _GLOBAL__I__ZN9TimedTurnC2Edb();
 void _GLOBAL__I__ZN16ToggleRobotClimbC2Ev();
 
 void _GLOBAL__I__ZN20ToggleThrowerPlungerC2Ev();
+
+void _GLOBAL__I__ZN10WaitAwhileC2Ed();
 
 void _GLOBAL__I__ZN2OIC2Ev();
 
@@ -108,12 +116,15 @@ void (*_ctors[])() =
     {
     _GLOBAL__I__ZN10AutonomousC2Ev,
     _GLOBAL__I__ZN11ClimbALevelC2Ev,
+    _GLOBAL__I__ZN13DeployPlungerC2Eb,
     _GLOBAL__I__ZN17DriveWithJoystickC2Ev,
+    _GLOBAL__I__ZN6HangOnC2Ed,
     _GLOBAL__I__ZN11KickerSpeedC2Ed,
     _GLOBAL__I__ZN10PlungeKickC2Ed,
     _GLOBAL__I__ZN10ThrowerOffC2Ev,
     _GLOBAL__I__ZN9ThrowerOnC2Ev,
     _GLOBAL__I__ZN24TiltTableAutoSwitchSpeedC2Ed,
+    _GLOBAL__I__ZN22TiltToAutonomousTargetC2Ev,
     _GLOBAL__I__ZN11TilterSpeedC2Ed,
     _GLOBAL__I__ZN15TimedDiscKickerC2Edd,
     _GLOBAL__I__ZN18TimedDriveStraightC2Edd,
@@ -121,6 +132,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9TimedTurnC2Edb,
     _GLOBAL__I__ZN16ToggleRobotClimbC2Ev,
     _GLOBAL__I__ZN20ToggleThrowerPlungerC2Ev,
+    _GLOBAL__I__ZN10WaitAwhileC2Ed,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot7chassisE,
     _GLOBAL__I__ZN8RobotMap16chassisLeftMotorE,
@@ -161,7 +173,11 @@ void _GLOBAL__D__ZN10AutonomousC2Ev();
 
 void _GLOBAL__D__ZN11ClimbALevelC2Ev();
 
+void _GLOBAL__D__ZN13DeployPlungerC2Eb();
+
 void _GLOBAL__D__ZN17DriveWithJoystickC2Ev();
+
+void _GLOBAL__D__ZN6HangOnC2Ed();
 
 void _GLOBAL__D__ZN11KickerSpeedC2Ed();
 
@@ -172,6 +188,8 @@ void _GLOBAL__D__ZN10ThrowerOffC2Ev();
 void _GLOBAL__D__ZN9ThrowerOnC2Ev();
 
 void _GLOBAL__D__ZN24TiltTableAutoSwitchSpeedC2Ed();
+
+void _GLOBAL__D__ZN22TiltToAutonomousTargetC2Ev();
 
 void _GLOBAL__D__ZN11TilterSpeedC2Ed();
 
@@ -186,6 +204,8 @@ void _GLOBAL__D__ZN9TimedTurnC2Edb();
 void _GLOBAL__D__ZN16ToggleRobotClimbC2Ev();
 
 void _GLOBAL__D__ZN20ToggleThrowerPlungerC2Ev();
+
+void _GLOBAL__D__ZN10WaitAwhileC2Ed();
 
 void _GLOBAL__D__ZN2OIC2Ev();
 
@@ -250,12 +270,15 @@ void (*_dtors[])() =
     {
     _GLOBAL__D__ZN10AutonomousC2Ev,
     _GLOBAL__D__ZN11ClimbALevelC2Ev,
+    _GLOBAL__D__ZN13DeployPlungerC2Eb,
     _GLOBAL__D__ZN17DriveWithJoystickC2Ev,
+    _GLOBAL__D__ZN6HangOnC2Ed,
     _GLOBAL__D__ZN11KickerSpeedC2Ed,
     _GLOBAL__D__ZN10PlungeKickC2Ed,
     _GLOBAL__D__ZN10ThrowerOffC2Ev,
     _GLOBAL__D__ZN9ThrowerOnC2Ev,
     _GLOBAL__D__ZN24TiltTableAutoSwitchSpeedC2Ed,
+    _GLOBAL__D__ZN22TiltToAutonomousTargetC2Ev,
     _GLOBAL__D__ZN11TilterSpeedC2Ed,
     _GLOBAL__D__ZN15TimedDiscKickerC2Edd,
     _GLOBAL__D__ZN18TimedDriveStraightC2Edd,
@@ -263,6 +286,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN9TimedTurnC2Edb,
     _GLOBAL__D__ZN16ToggleRobotClimbC2Ev,
     _GLOBAL__D__ZN20ToggleThrowerPlungerC2Ev,
+    _GLOBAL__D__ZN10WaitAwhileC2Ed,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot7chassisE,
     _GLOBAL__D__ZN8RobotMap16chassisLeftMotorE,

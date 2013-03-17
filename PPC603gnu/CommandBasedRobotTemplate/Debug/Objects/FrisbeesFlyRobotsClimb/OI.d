@@ -411,7 +411,10 @@ CommandBasedRobotTemplate/Debug/Objects/FrisbeesFlyRobotsClimb/OI.o:  \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TimedTurn.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h \
   C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleThrowerPlunger.h \
-  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/DeployPlunger.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TiltToAutonomousTarget.h \
+  C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/HangOn.h
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/OI.h:
 
@@ -1235,4 +1238,10 @@ C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleRobotClimb.h:
 
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/ToggleThrowerPlunger.h:
 
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/DeployPlunger.h:
+
 C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/KickerSpeed.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/TiltToAutonomousTarget.h:
+
+C:/WindRiver/workspace/FrisbeesFlyRobotsClimb/Commands/HangOn.h:

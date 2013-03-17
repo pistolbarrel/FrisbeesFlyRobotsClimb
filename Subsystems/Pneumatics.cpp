@@ -29,10 +29,12 @@ void Pneumatics::ToggleThrowerPlunger()
 {
 	if (throwerPlunger->Get() == DoubleSolenoid::kForward)
 	{
+		SmartDashboard::PutString("Plunger", "Undeployed");
 		throwerPlunger->Set(DoubleSolenoid::kReverse);
 	}
 	else
 	{
+		SmartDashboard::PutString("Plunger", "Deployed");
 		throwerPlunger->Set(DoubleSolenoid::kForward);
 	}
 }
@@ -47,3 +49,21 @@ void Pneumatics::ToggleRobotClimb()
 		robotClimb->Set(DoubleSolenoid::kForward);
 	}
 }
+void Pneumatics::DeployPlunger(bool trueFalse) 
+{
+	if (trueFalse)
+	{
+		if (throwerPlunger->Get() != DoubleSolenoid::kForward)
+		{
+			throwerPlunger->Set(DoubleSolenoid::kForward);			
+		}
+	}
+	else
+	{
+		if (throwerPlunger->Get() != DoubleSolenoid::kReverse)
+		{
+			throwerPlunger->Set(DoubleSolenoid::kReverse);			
+		}
+	}
+}
+

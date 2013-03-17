@@ -32,6 +32,8 @@ void TiltTable::InitializeMotorSpeed(double speed)
 }
 void TiltTable::ExecuteMotorSpeed()
 {
+	SmartDashboard::PutBoolean("DownTiltLimit", downTiltLimit->Get());
+	SmartDashboard::PutBoolean("AutonousTiltLimit", !autonomousSwitch->Get());
 	motor->Set(m_motorSpeed);
 }
 void TiltTable::EndMotorSpeed()
@@ -41,5 +43,5 @@ void TiltTable::EndMotorSpeed()
 }
 bool TiltTable::IsAutonomousSwitch()
 {
-	return !autonomousSwitch->Get();
+	return autonomousSwitch->Get();
 }
